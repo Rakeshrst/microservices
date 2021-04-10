@@ -1,5 +1,0 @@
-package com.rstontherun.microservices.apigateway;
-
-public class ApiGatewayConfiguration {
-
-}

@@ -1,5 +1,0 @@
-package com.rstontherun.microservices.limitsservice.configuration;
-
-public class Configuration {
-
-}
