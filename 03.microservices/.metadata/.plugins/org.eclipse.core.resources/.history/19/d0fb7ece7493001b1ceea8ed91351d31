@@ -1,0 +1,7 @@
+spring.application.name=limits-service
+limits-service.maximum=2
+limits-service.minimum=10000
+spring.cloud.config.enabled=false
+spring.cloud.config.import-check.enabled=false
+spring.config.import==optional:configserver:http//localhost:8888
+spring.profiles.active=dev

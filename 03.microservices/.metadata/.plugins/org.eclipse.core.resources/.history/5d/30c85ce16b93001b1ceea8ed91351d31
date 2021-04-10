@@ -1,0 +1,5 @@
+package com.rstontherun.microservices.limitsservice;
+
+public class LimitsController {
+
+}

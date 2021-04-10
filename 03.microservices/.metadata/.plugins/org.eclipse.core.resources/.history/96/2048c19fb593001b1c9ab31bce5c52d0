@@ -1,0 +1,5 @@
+package com.rstontherun.microservices.currencyexchangeservice;
+
+public class CircuitBreakerController {
+
+}
