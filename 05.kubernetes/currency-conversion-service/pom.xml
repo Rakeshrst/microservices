@@ -11,8 +11,8 @@
 	</parent>
 	<groupId>com.rstontherun.microservices</groupId>
 	<artifactId>currency-conversion-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>currency-conversion-service</name>
+	<version>0.0.12-SNAPSHOT</version>
+	<name>currency-conversion-service-kubernetes</name>
 	<description>Currency Conversion Service</description>
 	<properties>
 		<java.version>11</java.version>
@@ -80,7 +80,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-						<name>in28min/mmv2-${project.artifactId}:${project.version}</name>
+						<name>rstontherun/mmv2-${project.artifactId}:${project.version}</name>
 					</image>
 					<pullPolicy>IF_NOT_PRESENT</pullPolicy>
 				</configuration>
